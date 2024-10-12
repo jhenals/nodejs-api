@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-const GEOCODING_API_KEY = "0sl1WuorUUQqh9t0XG2w";
+const GEOCODING_API_KEY = "Dk-F8Cc5lhTTpQuTsPoAwab-6JsgLc2aq4QQrmWdv80";
 const DIRECTIONS_API_KEY = "YOUR_GOOGLE_DIRECTIONS_API_KEY";
 
 app.post("/webhook", async (req, res) => {
